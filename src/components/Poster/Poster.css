@@ -1,0 +1,10 @@
+.poster-container {
+  position: relative;
+  display: inline-block;
+}
+
+.poster {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
