@@ -1,0 +1,29 @@
+.movie-details {
+  margin-top: 10px;
+  display: flex;
+  gap: 12px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.trailer-btn {
+  margin-top: auto;
+  margin-left: auto;
+}
+
+.back-to-main {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

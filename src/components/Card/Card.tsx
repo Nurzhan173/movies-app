@@ -26,7 +26,7 @@ const Card: React.FC<Card> = observer(({ movieItem }) => {
 
       <div className="action">
         <Link to={`/movie/${movieItem.IMDB_ID}`}>
-          <Button variant="primary">View details</Button>
+          <Button variant="primary">More</Button>
         </Link>
       </div>
     </div>
