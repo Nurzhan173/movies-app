@@ -2,7 +2,6 @@ import { RootStore } from "./RootStore";
 import { action, makeObservable, observable } from "mobx";
 import { BASE_URL } from "../constants/constants";
 import { removeHashSymbols } from "../utils/utils";
-import { ac } from "vitest/dist/reporters-QGe8gs4b";
 
 export interface MoviesListItem {
   ACTORS: string;
